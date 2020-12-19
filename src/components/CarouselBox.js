@@ -15,8 +15,8 @@ export default class CarouselBox extends Component {
                         alt="manicure"
                    />
                    <Carousel.Caption>
-                       <h3>Manicure image</h3>
-                       <p>Some text blblblblblblblblblblblblblblblblblb</p>
+                       <h3>Неймовірний манікюр - секрет нашого успіху</h3>
+                       <p>BeautySpace подарує Вам справжню насолоду від процедури та відмінний результат</p>
                    </Carousel.Caption>
                </Carousel.Item>
 
@@ -27,8 +27,8 @@ export default class CarouselBox extends Component {
                         alt="manicure"
                    />
                    <Carousel.Caption>
-                       <h3>Manicure image</h3>
-                       <p>Some text blblblblblblblblblblblblblblblblblb</p>
+                       <h3>Нові тренди і технології</h3>
+                       <p>BeautySpace використовує лише новітні тренди та технології аби обслуговувати клієнтів на високому рівні</p>
                    </Carousel.Caption>
                </Carousel.Item>
 
@@ -39,8 +39,8 @@ export default class CarouselBox extends Component {
                         alt="manicure"
                    />
                    <Carousel.Caption>
-                       <h3>Manicure image</h3>
-                       <p>Some text blblblblblblblblblblblblblblblblblb</p>
+                       <h3>Сучасний дизайн та авторські рішення</h3>
+                       <p>Незабутні враження і чудовий результат забезпечать наші висококваліфіковані майстри BeautySpace</p>
                    </Carousel.Caption>
                </Carousel.Item>
            </Carousel>

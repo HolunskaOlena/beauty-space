@@ -12,15 +12,15 @@ export default class Contacts extends Component {
     render() {
         return (
             <Container style={{ maxWidth: '500px', marginTop: '100px' }}>
-                <h1 className="text-center">Contact us</h1>
+                <h1 className="text-center">Напишіть нам</h1>
                 <Form>
                     <Form.Group id="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
+                        <Form.Label>Адреса електронної пошти</Form.Label>
                         <FormControl type="email" placeholder="Enter email" onChange={this.handleChange} value={this.state.email} />
                     </Form.Group>
 
                     <Form.Group id="formBasicTextarea">
-                        <Form.Label>Message</Form.Label>
+                        <Form.Label>Текст повідомлення</Form.Label>
                         <Form.Control as="textarea" rows="3" onChange={this.handleChange} value={this.state.textarea} />
                     </Form.Group>
 
@@ -28,7 +28,7 @@ export default class Contacts extends Component {
                         <Form.Check type="checkbox" label="Check me out" onChange={this.handleChange} value={this.state.checkbox} />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit" onClick={this.handleSubmit}>Submit</Button>
+                    <Button variant="primary" type="submit" onClick={this.handleSubmit}>Надіслати</Button>
                 </Form>
             </Container>
         )
